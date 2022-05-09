@@ -185,6 +185,19 @@ c++;
         System.out.println();
     }
     }
+    static void Pattern20(int n){
+        for(int i = 1 ; i <= n;i++){
+            for(int j = 1; j<=n-1;j++){
+                if(i==1|| i ==n||j==1||j==n-1){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
     static void Pattern19(int n) {
     for (int i = 1; i <=n; i++){
         for (int j = 1; j <=i; j++) {
